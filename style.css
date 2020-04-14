@@ -1,0 +1,49 @@
+.wrapper{
+    position: relative;
+    height: 1000px;
+    width: 100%;
+    background: url('https://www.gstatic.com/webp/gallery/1.jpg') no-repeat;
+    background-size: cover;
+;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #d7da266e;
+}
+ul{
+    list-style: none;
+    display: inline-flex;
+}
+li{
+    padding: 20px
+}
+img{    
+    background-size: cover;
+    width: 100%;    
+}
+.absolute{
+    position: absolute;
+    top: 100px;
+    right:0;
+    height:100px;
+  
+}
+
+.fixed{
+    position: fixed;   
+    top: 92%;
+    right: 0;
+    background: red;
+    color: white;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+    margin: 20px !important;
+}

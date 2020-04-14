@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html>
+    <title>Assignment-1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <!--css positions-->
+        <div class="wrapper">
+            <div class="sticky">
+                <ul>
+                    <li>Home</li>
+                      <li>About</li>
+                      <li>Contacts</li>
+ 
+                </ul>
+            </div>
+            <div class="absolute">
+                <h1>The Mountain View</h1>
+            </div>
+            <div class="fixed" onclick="myFunction()">Go to top</div>
+        </div>
+        
+            <script>
+                function myFunction(){
+                    document.documentElement.scrollTop = 0; 
+
+                }
+            </script>
+    </body>
+</html>
